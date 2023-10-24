@@ -80,4 +80,44 @@ console.log("Hola " + usuario + " " + saludo);
 console.log(`Hola ${usuario} ${saludo}`); // el ${} sirve para interpolar variables como se ve el ejemplo
 
 //comparacion
-//logicos
+
+let n1 = 1;
+
+let n2 = 2;
+
+let n3 = "1";
+
+console.log(n1 == n2); // comparación simple
+
+console.log(n1 != n2); // comparación simple
+
+console.log(n1 == n3); // da true porque js evalua el dato no el tipo de dato
+
+console.log(n1 === n3); // da false comparación estricta porque evalua el dato y el tipo de dato en este caso number y string
+
+// Es recomendable utilizar siempre las comparaciones estrictas para no generar confusion
+
+console.log(n1 > n2);
+
+console.log(n1 < n2);
+
+console.log(n1 <= n2);
+
+console.log(n1 >= n2);
+
+// Las comparaciones no son solo en numeros pueden realizarse con string
+
+let palabra = "Pepe"
+
+console.log( palabra === "Pepe");
+
+
+//logicos ---> && y || ---> ! not
+
+console.log("---------");
+
+let j = true
+
+let loged = false
+
+console.log( !loged); // invierte el boolenao si es false y true y viceversa
