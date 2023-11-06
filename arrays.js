@@ -45,3 +45,5 @@ console.log(elemento);  // Mostrará: que
 
 nuestroArray[1] = "Messi";
 console.log(nuestroArray);  // Mostrará: ["lo", "Messi", "vos", "quieras"]
+
+
